@@ -1,0 +1,52 @@
+body {
+	margin : 0;
+	padding: 0;
+	box-sizing: border-box ;
+	height: 100vh ;
+	background-image: linear-gradient( #922525 , #b87930bd ); 
+}
+
+.logo {
+	color: rgb(224,224,224);
+	letter-spacing: 5px;
+}
+
+.nav {
+	display: flex ;
+}
+
+.list-items li {
+	display: inline; 
+}
+
+.list-items a {
+	color: rgb(224,224,224);
+	text-decoration: none 
+}
+
+.list-items {
+	padding: 7px;
+	position: relative;
+	right: 0;
+}
+
+.line1 {
+	height : 3px ;
+	width : 30px;
+	top : 4px;
+	background : #f4f4f4;
+	position : absolute;
+}
+.line2 {
+	height : 3px ;
+	width : 30px;
+	top : 9px;
+	background : #f4f4f4;
+	position  : absolute;
+}.line3 {
+	height : 3px ;
+	width : 30px;
+	background : #f4f4f4;
+	position : absolute;
+	top : 14px;
+}
